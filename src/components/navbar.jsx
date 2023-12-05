@@ -37,13 +37,14 @@ const NavBar = () => {
         display: "flex",
         justifyContent: "space-around",
         cursor: "pointer",
-        backgroundColor: "black",
-        color: "black",
+        backgroundColor: "gray",
+        color: "white",
         padding: "10px 0"
     }
 
     const navLinkStyle = {
         fontSize: "22px",
+        color: "white"
     }
     /*const displayNavItem = (navItem) => {
         const isLogIn = isLogIn
